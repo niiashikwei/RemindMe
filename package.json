@@ -1,0 +1,36 @@
+{
+  "name": "remind_me",
+  "version": "1.0.0",
+  "description": "App for reccuring reminders",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build" : "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niiashikwei/RemindMe.git"
+  },
+  "keywords": [
+    "remind",
+    "remindme",
+    "remember",
+    "reminder"
+  ],
+  "author": "Nii Tetteh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niiashikwei/RemindMe/issues"
+  },
+  "homepage": "https://github.com/niiashikwei/RemindMe#readme",
+  "dependencies": {
+    "babel-core": "6.23.1",
+    "babel-loader": "^6.3.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  }
+}
